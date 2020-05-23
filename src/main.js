@@ -5,12 +5,13 @@ import Vue from 'vue'
 // import Instance from './components/Instance'
 // import obj2 from './assets/Data.js'
 
-import TemplateSyntax from './components/TemplateSyntax'
+// import TemplateSyntax from './components/TemplateSyntax'
+import Computed from './components/Computed'
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(TemplateSyntax),
+  render: h => h(Computed),
 }).$mount('#app');
 
 // console.log(Instance.data() === obj2);
