@@ -10,12 +10,14 @@ import Vue from 'vue'
 
 // import ClassAndBindingStyles from './components/ClassAndBindingStyles'
 
-import ConditionalRendering from './components/ConditionalRendering';
+// import ConditionalRendering from './components/ConditionalRendering';
+
+import ListRendering from './components/ListRendering';
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(ConditionalRendering),
+  render: h => h(ListRendering),
 }).$mount('#app');
 
 // console.log(Instance.data() === obj2);
