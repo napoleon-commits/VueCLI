@@ -8,12 +8,14 @@ import Vue from 'vue'
 // import TemplateSyntax from './components/TemplateSyntax'
 // import Computed from './components/Computed'
 
-import ClassAndBindingStyles from './components/ClassAndBindingStyles'
+// import ClassAndBindingStyles from './components/ClassAndBindingStyles'
+
+import ConditionalRendering from './components/ConditionalRendering';
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(ClassAndBindingStyles),
+  render: h => h(ConditionalRendering),
 }).$mount('#app');
 
 // console.log(Instance.data() === obj2);
