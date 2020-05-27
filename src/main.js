@@ -14,12 +14,14 @@ import Vue from 'vue'
 
 // import ListRendering from './components/ListRendering';
 
-import EventHandling from './components/EventHandling';
+// import EventHandling from './components/EventHandling';
+
+import FormInputBindings from './components/FormInputBindings';
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(EventHandling),
+  render: h => h(FormInputBindings),
 }).$mount('#app');
 
 // console.log(Instance.data() === obj2);
